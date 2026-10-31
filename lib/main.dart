@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_rpl2/constants/app_colors.dart';
 import 'package:project_rpl2/pages/LoginPage.dart';
 import 'package:project_rpl2/pages/MenuPage.dart';
 import 'package:project_rpl2/pages/Register.dart';
@@ -20,11 +21,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
-        scaffoldBackgroundColor: const Color(0xFF0F172A),
+        scaffoldBackgroundColor: AppColors.background,
         colorScheme: const ColorScheme.dark(
-          primary: Color(0xFF6366F1),
-          secondary: Color(0xFF22D3EE),
-          surface: Color(0xFF1E293B),
+          primary: AppColors.primary,
+          secondary: AppColors.secondary,
+          surface: AppColors.surface,
         ),
       ),
       home: const AuthGate(),

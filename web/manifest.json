@@ -1,11 +1,11 @@
 {
-    "name": "project_rpl2",
-    "short_name": "project_rpl2",
+    "name": "GameHaven - Game Catalog & Vault",
+    "short_name": "GameHaven",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#0F172A",
+    "theme_color": "#6366F1",
+    "description": "GameHaven is your ultimate personal game collection and vault.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

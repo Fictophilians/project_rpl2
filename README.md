@@ -1,6 +1,6 @@
 # project_rpl2
 
-A new Flutter project.
+Folder tugas dan latihan flutter
 
 ## Getting Started
 

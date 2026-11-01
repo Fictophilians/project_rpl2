@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:http/http.dart' as http;
 import 'package:http_parser/http_parser.dart';
 import 'package:image_picker/image_picker.dart';
@@ -7,10 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class Apiservice {
   static String get baseUrl {
-    if (kIsWeb) {
-      return "http://localhost:3000/api";
-    }
-    return "http://10.0.2.2:3000/api";
+    return "http://localhost:3000/api";
   }
 
   static Future<void> saveToken(String token) async {

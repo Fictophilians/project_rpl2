@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "GameHaven",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}

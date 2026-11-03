@@ -97,26 +97,27 @@ class _MenupageState extends State<Menupage> {
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 600),
               child: SalomonBottomBar(
+                margin: const EdgeInsets.symmetric(horizontal: 28, vertical: 8),
                 currentIndex: currentIndex,
                 onTap: (index) => setState(() => currentIndex = index),
                 items: [
                   SalomonBottomBarItem(
-                    icon: const Icon(Icons.sports_esports_outlined),
-                    activeIcon: const Icon(Icons.sports_esports_rounded),
+                    icon: const Icon(Icons.sports_esports_outlined, size: 28),
+                    activeIcon: const Icon(Icons.sports_esports_rounded, size: 28),
                     title: const Text('Games'),
                     selectedColor: const Color(0xFF6366F1),
                     unselectedColor: const Color(0xFF94A3B8),
                   ),
                   SalomonBottomBarItem(
-                    icon: const Icon(Icons.group_outlined),
-                    activeIcon: const Icon(Icons.group_rounded),
+                    icon: const Icon(Icons.group_outlined, size: 28),
+                    activeIcon: const Icon(Icons.group_rounded, size: 28),
                     title: const Text('Users'),
                     selectedColor: const Color(0xFF22D3EE),
                     unselectedColor: const Color(0xFF94A3B8),
                   ),
                   SalomonBottomBarItem(
-                    icon: const Icon(Icons.person_outline),
-                    activeIcon: const Icon(Icons.person_rounded),
+                    icon: const Icon(Icons.person_outline, size: 28),
+                    activeIcon: const Icon(Icons.person_rounded, size: 28),
                     title: const Text('Profile'),
                     selectedColor: const Color(0xFF10B981),
                     unselectedColor: const Color(0xFF94A3B8),
